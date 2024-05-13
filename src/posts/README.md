@@ -1,7 +1,7 @@
 ---
 title: 文章
 index: false
-icon: laptop-code
+icon: file-word
 ---
 
 <Catalog />
