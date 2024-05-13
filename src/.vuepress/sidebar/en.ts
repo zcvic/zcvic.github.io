@@ -11,9 +11,9 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "Articles",
+      text: "code note",
       icon: "book",
-      prefix: "posts/",
+      prefix: "posts/code/",
       children: "structure",
     },
     "intro",

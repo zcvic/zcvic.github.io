@@ -1,9 +1,9 @@
 ---
 title: Api集中管理和请求拦截
-index: false
 icon: pen-to-square
 category:
   - 代码笔记
+  - 前端
 ---
 # Api集中管理和请求拦截
 
@@ -74,11 +74,11 @@ this.api.login({
 
 首先下载好[luch-request](https://www.quanzhan.co/luch-request/)，放进项目里，我这里是新建了一个libs 目录放一些插件
 
-![HBuilderX_V4z63Qxlh9.png](/assets/images/uniapp/HBuilderX_V4z63Qxlh9.png)
+![HBuilderX_V4z63Qxlh9.png](/assets/images/code/front/uniapp/HBuilderX_V4z63Qxlh9.png)
 
 首先在项目新建一个目录，我这里以common为例子，我习惯将一些工具放在此目录，再新建一个api目录，以及目录下的index.js(全局配置、拦截配置)和api.js(api集中管理)
 
-![HBuilderX_svb7x9BRrS.png](/assets/images/uniapp/HBuilderX_svb7x9BRrS.png)
+![HBuilderX_svb7x9BRrS.png](/assets/images/code/front/uniapp/HBuilderX_svb7x9BRrS.png)
 
 首先配置index.js，这里只配置一部分可自己根据[luch-request](https://www.quanzhan.co/luch-request/)文档做出更多配置
 
@@ -147,13 +147,13 @@ export default api
 
 当然，也有办法将get方法修改为post哪样，查看源码
 
-![HBuilderX_dG4LjFZjZo.png](/assets/images/uniapp/HBuilderX_dG4LjFZjZo.png)
+![HBuilderX_dG4LjFZjZo.png](/assets/images/code/front/uniapp/HBuilderX_dG4LjFZjZo.png)
 
 调试之后发现get的参数得放在params里
 
 修改后：
 
-![HBuilderX_lld0yY8lF2.png](/assets/images/uniapp/HBuilderX_lld0yY8lF2.png)
+![HBuilderX_lld0yY8lF2.png](/assets/images/code/front/uniapp/HBuilderX_lld0yY8lF2.png)
 
 api.js（修改插件源码后）
 
@@ -191,4 +191,4 @@ Vue.prototype.api=api
 
 然后就可以在任何位置使用this.api.xxx使用了，也会有代码提示
 
-![HBuilderX_VEB5KgJaRv.png](/assets/images/uniapp/HBuilderX_VEB5KgJaRv.png)
+![HBuilderX_VEB5KgJaRv.png](/assets/images/code/front/uniapp/HBuilderX_VEB5KgJaRv.png)

@@ -1,3 +1,10 @@
+---
+title: 自定义tabbar
+icon: pen-to-square
+category:
+  - 代码笔记
+  - 前端
+---
 # 自定义tabbar
 
 tabbar页面来回切换会有闪烁的问题

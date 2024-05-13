@@ -41,13 +41,6 @@ export const enNavbar = navbar([
       },
       { text: "Cherry", icon: "pen-to-square", link: "cherry" },
       { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
-  },
-  {
-    text: "V2 Docs",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/",
   },
 ]);

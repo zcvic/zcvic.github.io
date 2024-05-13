@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "zcvic/zcvic.github.io",
 
   docsDir: "src",
 

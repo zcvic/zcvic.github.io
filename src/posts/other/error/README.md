@@ -1,7 +1,7 @@
 ---
-title: vue
+title: 错误处理
 index: false
-icon: laptop-code
+icon: error
 ---
 
 <Catalog />
