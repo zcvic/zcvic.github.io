@@ -1,5 +1,5 @@
 ---
-title: 错误处理
+title: 报错处理
 index: false
 icon: error
 ---

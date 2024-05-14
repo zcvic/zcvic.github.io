@@ -1,11 +1,16 @@
 ---
 icon: print
+date: 2024-05-12
+category:
+  - 报错处理
 ---
 # win11连接共享打印机出现错误0x00000709
 
 win11连接网络共享打印机报错**0x00000709如下图所示：**
 
 ![explorer_plwWcDrv5k.png](/assets/images/other/error/explorer_plwWcDrv5k.png)
+
+## 搜索方案
 
 搜索了很多的解决方案：
 
@@ -33,7 +38,7 @@ Windows Registry Editor Version 5.00
 :::
 
 
-于是寻找起别的方法
+## 亲测解决方案
 
 ::: tip
 使用win10连接添加远程共享打印机，会弹出输入windows用户名和密码（即windows凭据）

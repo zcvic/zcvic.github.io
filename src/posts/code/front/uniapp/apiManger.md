@@ -1,12 +1,15 @@
 ---
 title: Api集中管理和请求拦截
 icon: pen-to-square
+date: 2024-05-13
 category:
   - 代码笔记
   - 前端
 ---
+<!-- more -->
 # Api集中管理和请求拦截
 
+## luch-request介绍
 这里用到的插件为[luch-request](https://www.quanzhan.co/luch-request/)
 
 为什么要用[luch-request](https://www.quanzhan.co/luch-request/)?
@@ -71,6 +74,8 @@ this.api.login({
 			console.log(ret);
 	}
 ```
+
+## 具体实现
 
 首先下载好[luch-request](https://www.quanzhan.co/luch-request/)，放进项目里，我这里是新建了一个libs 目录放一些插件
 

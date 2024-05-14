@@ -5,8 +5,9 @@ icon: home
 title: 主页
 heroImage: logo.png
 heroText: 荒芜blog
+bgImage: https://bing.img.run/rand_1366x768.php
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 
 projects:
   - icon: project
     name: 项目名称

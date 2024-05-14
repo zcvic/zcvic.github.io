@@ -1,27 +1,32 @@
 ---
 title: 自定义tabbar
 icon: pen-to-square
+sticky: true
+star: true
+date: 2024-05-14
 category:
   - 代码笔记
   - 前端
 ---
 # 自定义tabbar
 
+## 问题
 tabbar页面来回切换会有闪烁的问题
 
-我使用一个主页面，将tabbar页面以组件的方式引入页面，使用v-show或v-if来决定页面的显示与否。
+为了解决这个问题，我使用一个主页面，将tabbar页面以组件的方式引入页面，使用v-show或v-if来决定页面的显示与否。
 
 今天我使用此方法时，发现一个问题。
 
+::: tip 问题
 一般tabbar页面都需要请求接口，我以前都是将这些接口请求放在mounted周期中，如果主页面使用v-if的方式，那么tabbar页面来回切换，那么mounted周期会被触发多次。
 
 如果使用v-show的方式，那么主要页面首次加载时，会将所有tabbar页面的mounted都触发一次，来回切换不会再次触发。
-
+:::
 这两种方法都感觉有点浪费，于是想了很久，想出了一个解决方案，当然这样写会不会有别的问题，我也不知道，目前我还没有遇到
 
 给tabbar页面添加一个load方法，只有点击对应页面的tabbar时才触发对应页面的load。
 
-具体实现：
+## 具体实现
 
 ```jsx
 <template>
@@ -120,4 +125,11 @@ tabbar页面来回切换会有闪烁的问题
 </script>
 ```
 
-在对应的tabbar页面添加load方法即可
+在对应的tabbar页面 methods 中添加load方法即可
+```jsx
+methods: {
+	load() {
+
+	},
+}
+```
