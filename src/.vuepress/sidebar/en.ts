@@ -6,6 +6,7 @@ export const enSidebar = sidebar({
     {
       text: "code note",
       icon: "book",
+      link: "posts/code/",
       prefix: "posts/code/",
       children: "structure",
     },

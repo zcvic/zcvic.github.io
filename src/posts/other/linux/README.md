@@ -1,5 +1,5 @@
 ---
-title: 报错处理
+title: linux
 index: false
 icon: triangle-exclamation
 ---

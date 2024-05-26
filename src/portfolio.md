@@ -9,6 +9,7 @@ avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
   - 此博客作者
+  - 一个平凡的软件工程师
 
 content: false
 footer: false

@@ -5,6 +5,9 @@ date: 2024-05-13
 category:
   - 代码笔记
   - 前端
+  - uniapp
+tag:
+  - api
 ---
 <!-- more -->
 # Api集中管理和请求拦截

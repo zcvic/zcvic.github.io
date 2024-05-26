@@ -4,8 +4,29 @@ export const zhNavbar = navbar([
   "/",
   "/portfolio",
   // "/demo/",
-  "/posts/code/",
-  "/posts/other/",
+  {
+    text: "代码笔记",
+    icon: "laptop-code",
+    prefix: "/posts/code/",
+    children:[
+      {
+        text: "前端",
+        prefix: "front/",
+        children:["uniapp/","vue2/","vue3/"]
+      },
+      {
+        text: "后端",
+        prefix: "end/",
+        children:["java/","python/"]
+      }
+    ]
+  },
+  {
+    text: "其他笔记",
+    icon: "pen-to-square",
+    prefix: "/posts/other/",
+    children: ["error/","linux/"]
+  },
   // {
   //   text: "博文",
   //   icon: "pen-to-square",
