@@ -1,7 +1,7 @@
 ---
 title: uniapp
 index: false
-icon: code
+icon: uniapp
 ---
 
 <Catalog />

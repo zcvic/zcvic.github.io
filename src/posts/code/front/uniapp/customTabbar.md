@@ -1,6 +1,6 @@
 ---
 title: 自定义tabbar
-icon: pen-to-square
+icon: tabbar
 sticky: true
 star: true
 date: 2024-05-14

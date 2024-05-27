@@ -1,7 +1,7 @@
 ---
 title: java
 index: false
-icon: laptop-code
+icon: java
 ---
 
 <Catalog />

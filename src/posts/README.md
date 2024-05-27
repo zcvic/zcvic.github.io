@@ -1,7 +1,7 @@
 ---
 title: 文章
 index: false
-icon: file-word
+icon: article
 ---
 
 <Catalog />

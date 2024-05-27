@@ -1,7 +1,7 @@
 ---
 title: 报错处理
 index: false
-icon: triangle-exclamation
+icon: error-fill
 ---
 
 <Catalog />

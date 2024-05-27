@@ -11,8 +11,9 @@ export default hopeTheme({
     url: "https://zcvic.github.io",
   },
 
-  iconAssets: "fontawesome-with-brands",
-
+  iconAssets: "//at.alicdn.com/t/c/font_4562321_lcknunvvzsa.css",
+  // iconAssets: "fontawesome-with-brands",
+  
   logo: "logo.png",
 
   repo: "zcvic/zcvic.github.io",

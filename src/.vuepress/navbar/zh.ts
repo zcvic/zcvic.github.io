@@ -23,7 +23,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "其他笔记",
-    icon: "pen-to-square",
+    icon: "other",
     prefix: "/posts/other/",
     children: ["error/","linux/"]
   },

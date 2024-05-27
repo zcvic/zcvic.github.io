@@ -1,6 +1,6 @@
 ---
 title: Api集中管理和请求拦截
-icon: pen-to-square
+icon: api
 date: 2024-05-13
 category:
   - 代码笔记

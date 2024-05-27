@@ -1,7 +1,7 @@
 ---
 title: 前端
 index: false
-icon: code
+icon: front
 ---
 
 <Catalog />

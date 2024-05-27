@@ -1,7 +1,7 @@
 ---
-title: python
+title: docker
 index: false
-icon: python
+icon: docker
 ---
 
 <Catalog />

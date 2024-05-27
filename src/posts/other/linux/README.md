@@ -1,7 +1,7 @@
 ---
 title: linux
 index: false
-icon: triangle-exclamation
+icon: linux
 ---
 
 <Catalog />

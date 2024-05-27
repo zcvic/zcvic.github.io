@@ -1,5 +1,5 @@
 ---
-icon: print
+icon: docker
 date: 2024-05-26
 ---
 
@@ -13,7 +13,7 @@ docker container run hello-world
 
 结果报错了
 
-![vmware_sPAX6jk90h.png](/assets/images/other/linux/dockerUse/vmware_sPAX6jk90h.png)
+![vmware_sPAX6jk90h.png](/assets/images/other/docker/dockerUse/vmware_sPAX6jk90h.png)
 
 因为当前用户无权限
 
@@ -23,7 +23,7 @@ docker container run hello-world
 sudo docker container run hello-world
 ```
 
-![vmware_uwUaqInP4R.png](/assets/images/other/linux/dockerUse/vmware_uwUaqInP4R.png)
+![vmware_uwUaqInP4R.png](/assets/images/other/docker/dockerUse/vmware_uwUaqInP4R.png)
 
 正常执行
 
@@ -47,7 +47,7 @@ $USER为当前用户变量
 docker container run hello-world
 ```
 
-![vmware_ldeLChKGl7.png](/assets/images/other/linux/dockerUse/vmware_ldeLChKGl7.png)
+![vmware_ldeLChKGl7.png](/assets/images/other/docker/dockerUse/vmware_ldeLChKGl7.png)
 
 正常执行
 

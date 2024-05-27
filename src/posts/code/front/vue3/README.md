@@ -1,7 +1,7 @@
 ---
 title: vue3
 index: false
-icon: laptop-code
+icon: vue
 ---
 
 <Catalog />
