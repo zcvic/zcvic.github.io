@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "//at.alicdn.com/t/c/font_4562321_lcknunvvzsa.css",
   // iconAssets: "fontawesome-with-brands",
-  
+
   logo: "logo.png",
 
   repo: "zcvic/zcvic.github.io",
@@ -122,14 +122,25 @@ export default hopeTheme({
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    comment: {
-      provider: "Giscus",
-      repo: "zcvic/zcvic.github.io",
-      repoId: "R_kgDOL6tQwg",
-      category: "Announcements",
-      categoryId: "DIC_kwDOL6tQws4Cfoqc",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "zcvic/zcvic.github.io",
+    //   repoId: "R_kgDOL6tQwg",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOL6tQws4Cfoqc",
+    // },
 
+    comment: {
+      provider: "Waline",
+      serverURL: "https://waline.zwymw.top", // your server url
+      reaction:true,
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/weibo',
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+        '//unpkg.com/@waline/emojis@1.2.0/soul-emoji'
+      ],
+    },
     components: {
       components: ["Badge", "VPCard"],
     },
