@@ -11,12 +11,12 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "荒芜blog",
-      description: "vuepress-theme-hope 的博客演示",
+      description: "荒芜blog",
     },
     "/en/": {
       lang: "en-US",
       title: "hw-blog",
-      description: "A blog demo for vuepress-theme-hope",
+      description: "hw-blog",
     }
   },
 
