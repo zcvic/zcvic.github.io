@@ -7,7 +7,7 @@ heroImage: logo.png
 heroText: 荒芜blog
 bgImage: https://bing.img.run/rand_1366x768.php
 heroFullScreen: true
-tagline: 
+tagline: 测试一下
 projects:
   - icon: project
     name: 项目名称
@@ -38,5 +38,5 @@ projects:
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
-
-footer: 荒芜blog
+# | <a href="/sitemap" target="_blank">京ICP备2021000000号</a>
+footer: 荒芜blog 

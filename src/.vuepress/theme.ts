@@ -1,25 +1,24 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
   hostname: "https://zcvic.github.io",
-
+  // custom: true,
   author: {
     name: "荒芜",
     url: "https://zcvic.github.io",
+    email: "2484068670@qq.com",
   },
 
   iconAssets: "//at.alicdn.com/t/c/font_4562321_lcknunvvzsa.css",
   // iconAssets: "fontawesome-with-brands",
 
   logo: "logo.png",
-
+  fullscreen: true,
   repo: "zcvic/zcvic.github.io",
 
   docsDir: "src",
-
   blog: {
     medias: {
       // Baidu: "https://example.com",
@@ -74,7 +73,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "平平无奇打工人",
         intro: "/intro.html",
       },
 
@@ -274,4 +273,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+},{custom:true})
