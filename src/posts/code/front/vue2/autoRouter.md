@@ -48,7 +48,7 @@ const routes = [
 const glob = require.context('@/views', true, /\.vue$/)
 ```
 
-![msedge_imI87VaU7Y.png](/assets/images/code/front/vue2/autoRouter/msedge_imI87VaU7Y.png)
+![目录路径](/assets/images/code/front/vue2/autoRouter/msedge_imI87VaU7Y.png)
 
 首先删除尾部的.vue 通过.slice(0, -4)
 
@@ -219,8 +219,8 @@ app.vue
 
 layout的内容一直在页面中
 
-切换路由切换的是<router-view />
+切换路由切换的是\<router-view \/>
 
-![msedge_TMX8yb4QGf.png](/assets/images/code/front/vue2/autoRouter/msedge_TMX8yb4QGf.png)
+![路由效果图](/assets/images/code/front/vue2/autoRouter/msedge_TMX8yb4QGf.png)
 
-![msedge_zAbic5S7Ez.png](/assets/images/code/front/vue2/autoRouter/msedge_zAbic5S7Ez.png)
+![路由效果图](/assets/images/code/front/vue2/autoRouter/msedge_zAbic5S7Ez.png)

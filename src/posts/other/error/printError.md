@@ -8,7 +8,7 @@ category:
 
 win11连接网络共享打印机报错**0x00000709如下图所示：**
 
-![explorer_plwWcDrv5k.png](/assets/images/other/error/printError/explorer_plwWcDrv5k.png)
+![报错](/assets/images/other/error/printError/explorer_plwWcDrv5k.png)
 
 ## 搜索方案
 
@@ -52,16 +52,16 @@ Windows Registry Editor Version 5.00
 
 手动添加【Windows凭据】。控制面板→用户账户→Windows凭据→输入计算机名，用户名输guest，密码留空。（此为对方共享设置为电脑无密码保护的，设置了密码的请输入密码）
 
-![explorer_JPzmm3XI8u.png](/assets/images/other/error/printError/explorer_JPzmm3XI8u.png)
+![用户账户](/assets/images/other/error/printError/explorer_JPzmm3XI8u.png)
 
-![explorer_Mem5opVECo.png](/assets/images/other/error/printError/explorer_Mem5opVECo.png)
+![管理Windows凭据](/assets/images/other/error/printError/explorer_Mem5opVECo.png)
 
-![explorer_fcWY3ZpNlo.png](/assets/images/other/error/printError/explorer_fcWY3ZpNlo.png)
+![Windows凭据](/assets/images/other/error/printError/explorer_fcWY3ZpNlo.png)
 
 填写连接地址, 用户名填写guest,有设置密码的填写密码，没有则留空。
 
-![explorer_cUKWRvUoW2.png](/assets/images/other/error/printError/explorer_cUKWRvUoW2.png)
+![填写Windows凭据](/assets/images/other/error/printError/explorer_cUKWRvUoW2.png)
 
 添加好凭据后，再次尝试连接打印机，连接成功
 
-![explorer_Ryk8d2WRKk.png](/assets/images/other/error/printError/explorer_Ryk8d2WRKk.png)
+![连接打印机](/assets/images/other/error/printError/explorer_Ryk8d2WRKk.png)

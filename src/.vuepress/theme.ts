@@ -4,14 +4,14 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://blog.zwymw.top",
-  // custom: true,
+
   author: {
     name: "荒芜",
     url: "https://blog.zwymw.top",
     email: "2484068670@qq.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4562321_4l3rog905uo.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4562321_1luy6bkj1dq.css",
   // iconAssets: "fontawesome-with-brands",
 
   logo: "logo.png",

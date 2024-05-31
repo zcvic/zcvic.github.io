@@ -10,7 +10,7 @@ category:
 
 发现点击支持库配置后，易语言直接闪退了
 
-![e_s9T2hJOgNJ.png](/assets/images/other/error/eLibOut/e_s9T2hJOgNJ.png)
+![易语言界面](/assets/images/other/error/eLibOut/e_s9T2hJOgNJ.png)
 
 解决方案
 
@@ -18,19 +18,19 @@ category:
 
 右键-此电脑-属性
 
-![explorer_DR95nMkJoQ.png](/assets/images/other/error/eLibOut/explorer_DR95nMkJoQ.png)
+![此电脑-属性](/assets/images/other/error/eLibOut/explorer_DR95nMkJoQ.png)
 
 点击系统保护
 
-![ApplicationFrameHost_t0ABpuGIPF.png](/assets/images/other/error/eLibOut/ApplicationFrameHost_t0ABpuGIPF.png)
+![系统保护](/assets/images/other/error/eLibOut/ApplicationFrameHost_t0ABpuGIPF.png)
 
 选择 高级-性能-设置
 
-![SystemPropertiesProtection_YQ38zo0q6G.png](/assets/images/other/error/eLibOut/SystemPropertiesProtection_YQ38zo0q6G.png)
+![高级-性能-设置](/assets/images/other/error/eLibOut/SystemPropertiesProtection_YQ38zo0q6G.png)
 
 数据执行保护-添加
 
-![SystemPropertiesProtection_Je6pHf7ZdC.png](/assets/images/other/error/eLibOut/SystemPropertiesProtection_Je6pHf7ZdC.png)
+![数据执行保护-添加](/assets/images/other/error/eLibOut/SystemPropertiesProtection_Je6pHf7ZdC.png)
 
 找到易语言安装目录的e.exe添加好
 
@@ -40,4 +40,4 @@ category:
 
 需要启用易视觉库的话勾选后 点击确定 重启易语言即可
 
-![e_CzgfxKlDHU.png](/assets/images/other/error/eLibOut/e_CzgfxKlDHU.png)
+![易视觉库效果](/assets/images/other/error/eLibOut/e_CzgfxKlDHU.png)

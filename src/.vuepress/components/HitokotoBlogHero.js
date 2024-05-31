@@ -1,4 +1,4 @@
-import { defineComponent, h, nextTick, onMounted, onUnmounted, ref, watch, } from "vue";
+import { defineComponent, h, nextTick, onMounted, onUnmounted, ref } from "vue";
 import { DropTransition } from "@theme-hope/components/transitions/index";
 import "vuepress-theme-hope/presets/hitokoto-blog-hero.scss";
 export default defineComponent({
@@ -86,4 +86,3 @@ export default defineComponent({
         ];
     },
 });
-//# sourceMappingURL=HitokotoBlogHero.js.map

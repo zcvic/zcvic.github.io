@@ -11,12 +11,12 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "荒芜blog",
-      description: "荒芜blog",
+      description: "荒芜blog，荒芜博客，记录分享一些笔记",
     },
     "/en/": {
       lang: "en-US",
       title: "hw-blog",
-      description: "hw-blog",
+      description: "hw-blog，记录分享一些笔记",
     }
   },
 
