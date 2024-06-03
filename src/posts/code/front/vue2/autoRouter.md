@@ -14,7 +14,7 @@ tag:
 
 于是研究了一下根据目录结构自动生成路由，这样在views下添加文件之后就会自动生成路由了
 
-首先查看需要的路由结构
+先查看需要的路由结构
 
 ```jsx
 const routes = [
@@ -40,7 +40,7 @@ const routes = [
 ]
 ```
 
-首先通过webpack的require.context
+通过webpack的require.context
 
 获取目录路径
 
