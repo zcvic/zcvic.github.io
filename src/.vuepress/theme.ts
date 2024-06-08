@@ -11,7 +11,7 @@ export default hopeTheme({
     email: "2484068670@qq.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4562321_mfwftc24qcd.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4562321_2vmg8keo8tu.css",
   // iconAssets: "fontawesome-with-brands",
 
   logo: "logo.png",
