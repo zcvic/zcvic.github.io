@@ -2,7 +2,6 @@
 icon: ECharts
 date: 2024-05-31
 category:
-  - 代码笔记
   - 前端
   - vue2
 tag:

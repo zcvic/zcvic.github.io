@@ -3,7 +3,6 @@ title: Api集中管理和请求拦截
 icon: api
 date: 2024-05-13
 category:
-  - 代码笔记
   - 前端
   - uniapp
 tag:

@@ -1,7 +1,8 @@
 ---
 icon: docker
 date: 2024-05-25
-
+category:
+  - docker
 ---
 # Ubuntu Docker 安装
 Docker Engine-Community 支持以下的 Ubuntu 版本：

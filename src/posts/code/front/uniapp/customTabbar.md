@@ -3,7 +3,6 @@ title: 自定义tabbar
 icon: tabbar
 date: 2024-05-14
 category:
-  - 代码笔记
   - 前端
   - uniapp
 ---

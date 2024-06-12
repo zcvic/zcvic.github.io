@@ -1,6 +1,8 @@
 ---
 icon: docker
 date: 2024-05-26
+category:
+  - docker
 ---
 
 # docker的使用

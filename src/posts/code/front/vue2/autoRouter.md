@@ -2,7 +2,6 @@
 icon: router
 date: 2024-05-29
 category:
-  - 代码笔记
   - 前端
   - vue2
 tag:
