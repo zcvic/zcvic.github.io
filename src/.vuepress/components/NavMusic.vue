@@ -89,12 +89,11 @@ const getMusicList = () => {
   const server = 'netease'
   const type = 'playlist'
   const id=10162182605
-  fetch(`https://api.i-meto.com/meting/api?server=${server}&type=${type}&id=${id}&r=${Math.random()}`)
+  fetch(`https://www.zwymw.top/api/music.json`)
     .then(res => res.json())
     .then((res) => {
       if (res && res.length > 0) {
         musicList = res
-        console.log(res)
         NewPlayer()
       }
     })
