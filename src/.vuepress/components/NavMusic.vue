@@ -68,14 +68,8 @@ const NewPlayer = () => {
   win.musicAPlayer = new APlayer({
     container: document.getElementById('musicAPlayer'),
     audio: musicList,
-    lrcType: 3,
-    listFolded: false,
-    listMaxHeight: '324px',
-    mini: false,
-    fixed: false,
-    volume: 1,
-    storageName: 'musicAPlayer',
-  });
+    lrcType:3,
+  })
 
   win.musicAPlayer.on('play', function () {
     addBtnSpin()
@@ -177,11 +171,10 @@ onMounted(() => {
   background-color: #fff;
   user-select: none;
   position: fixed;
-  width: 280px;
-  height: 392px;
+  width: 360px;
   top: 50%;
   right: 50%;
-  margin-right: -140px;
+  margin-right: -180px;
   margin-top: -217px;
   border-radius: 10px;
   overflow: hidden;
