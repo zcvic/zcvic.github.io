@@ -26,7 +26,7 @@ tag:
 
 在pom.xml 文件中引入：
 
-```jsx
+```xml
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -43,7 +43,7 @@ tag:
 
 完整的pom.xml:
 
-```jsx
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -76,7 +76,7 @@ tag:
 
 编写启动类`TestApplication`
 
-```jsx
+```java
 package top.zwymw;
 
 import org.springframework.boot.SpringApplication;
@@ -94,7 +94,7 @@ public class TestApplication {
 
 ![Controller](/assets/images/code/end/java/createSpringBoot/idea64_3JvPWBLSYq.png)
 
-```jsx
+```java
 package top.zwymw.test.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;

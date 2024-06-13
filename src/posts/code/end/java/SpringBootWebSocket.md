@@ -22,7 +22,7 @@ tag:
 
 创建配置文件`WebSocketConfig`
 
-```jsx
+```java
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.server.standard.ServerEndpointExporter;
@@ -40,7 +40,7 @@ public class WebSocketConfig {
 
 使用@Slf4j、log.info需要在pom.xml添加
 
-```jsx
+```xml
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -49,7 +49,7 @@ public class WebSocketConfig {
 
 `WebSocketService` ：
 
-```jsx
+```java
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -176,7 +176,7 @@ public class WebSocketService {
 
 创建`DemoController`
 
-```jsx
+```java
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

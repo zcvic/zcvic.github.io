@@ -26,7 +26,7 @@ Spring Boot DevTools是一套工具集，用于提高Spring Boot应用程序的�
 
 在项目的pom.xml文件中，添加Spring Boot DevTools依赖：
 
-```jsx
+```xml
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -34,6 +34,19 @@ Spring Boot DevTools是一套工具集，用于提高Spring Boot应用程序的�
 ```
 
 添加依赖后，还需要设置一下才能使用
+
+### **application.yml**
+
+```yaml
+spring:
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+      exclude: WEB-INF
+  freemarker:
+    cache: false    #页面不加载缓存，修改即时生效
+```
 
 ### **DevTools的idea配置**
 
@@ -49,9 +62,11 @@ Spring Boot DevTools是一套工具集，用于提高Spring Boot应用程序的�
 
 DevTools通常会自动配置，但我们可以通过在application.properties或application.yml文件中添加一些属性来定制DevTools的行为。例如：
 
-```jsx
-# application.properties
-spring.devtools.restart.additional-exclude=**/*.java
+```yaml
+spring:
+  devtools:
+    restart:
+      additional-exclude: **/*.java
 ```
 
 在上面的代码中，我们通过`spring.devtools.restart.additional-exclude`属性来排除一些文件，以避免在重启时重新编译这些文件。

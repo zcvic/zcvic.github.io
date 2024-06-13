@@ -10,13 +10,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "荒芜blog",
-      description: "荒芜blog，荒芜博客，记录分享一些笔记",
+      title: "荒芜",
+      description: "荒芜,荒芜blog，荒芜博客，记录分享一些笔记",
     },
     "/en/": {
       lang: "en-US",
-      title: "hw-blog",
-      description: "hw-blog，记录分享一些笔记",
+      title: "hw",
+      description: "hw,hw-blog，记录分享一些笔记",
     }
   },
 

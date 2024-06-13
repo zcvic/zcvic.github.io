@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: logo.png
-heroText: 荒芜blog
+heroText: 荒芜
 bgImage: https://bing.img.run/rand_1366x768.php
 heroFullScreen: true
 tagline: 测试一下

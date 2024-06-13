@@ -68,7 +68,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "荒芜blog",
+      footer: "荒芜",
 
       displayFooter: true,
 
