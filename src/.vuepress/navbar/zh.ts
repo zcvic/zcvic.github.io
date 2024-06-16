@@ -25,7 +25,7 @@ export const zhNavbar = navbar([
     text: "其他笔记",
     icon: "other",
     prefix: "/posts/other/",
-    children: ["error/","develop/","software/","docker/","linux/"]
+    children: ["error/","develop/","software/","docker/","linux/","ros/"]
   },
   // {
   //   text: "博文",

@@ -93,7 +93,7 @@ export NVM_NODEJS_ORG_MIRROR=http://npmmirror.com/mirrors/node/
 source ~/.bashrc
 ```
 
-我这里安装18.19.0
+我这里安装14.16.0
 
 ```bash
 nvm install 14.16.0
