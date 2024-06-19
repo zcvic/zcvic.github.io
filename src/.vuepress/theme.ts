@@ -118,6 +118,12 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+    docsearch: {
+      appId: 'VQ3UO39I6G',
+      apiKey: "dce1652c98ec715e1953bacb68113d66",
+      indexName: "zwymw",
+    },
+
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
@@ -132,12 +138,20 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://waline.zwymw.top", // your server url
-      reaction:true,
+      reaction: [
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_agree.png',
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_sunglasses.png',
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_sleep.png',
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_annoyed.png',
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_lovely.png',
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_laugh.png',
+        'https://unpkg.com/@waline/emojis@1.2.0/tieba/tieba_smirk.png'
+      ],
       emoji: [
+        // '//unpkg.com/@waline/emojis@1.2.0/tieba/',
         '//unpkg.com/@waline/emojis@1.2.0/weibo',
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-        '//unpkg.com/@waline/emojis@1.2.0/bilibili',
-        '//unpkg.com/@waline/emojis@1.2.0/soul-emoji'
+        '//unpkg.com/@waline/emojis@1.2.0/bilibili'
       ],
     },
     components: {
@@ -273,4 +287,4 @@ export default hopeTheme({
     //   },
     // },
   },
-},{custom:true})
+}, { custom: true })
