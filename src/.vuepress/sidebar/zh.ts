@@ -33,6 +33,13 @@ export const zhSidebar = sidebar({
       prefix: "posts/other/",
       children: "structure",
     },
+    {
+      text: "页面",
+      icon: "pages",
+      link: "pages/",
+      prefix: "pages/",
+      children: "structure",
+    },
     "intro",
   ],
   "/posts/code/": [
@@ -122,6 +129,15 @@ export const zhSidebar = sidebar({
       text: "ros",
       icon: "ros",
       link: "/posts/other/ros/",
+      children: "structure",
+    }
+  ],
+  "/pages/":[
+    back_posts,
+    {
+      text: "页面",
+      icon: "pages",
+      link: "/pages/",
       children: "structure",
     }
   ]

@@ -27,6 +27,13 @@ export const zhNavbar = navbar([
     prefix: "/posts/other/",
     children: ["error/","develop/","software/","docker/","linux/","ros/"]
   },
+  {
+    text: "页面",
+    icon: "pages",
+    prefix: "pages/",
+    children:["link"]
+  }
+  
   // {
   //   text: "博文",
   //   icon: "pen-to-square",

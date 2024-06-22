@@ -23,7 +23,7 @@ ll /dev/ttyUSB*
 授权(将当前用户添加进dialout组，与arduino类似):
 
 ```bash
-git clone https:*//github.com/slamtec/rplidar_ros*
+sudo usermod -a -G dialout your_user_name
 ```
 
 重启使配置生效
