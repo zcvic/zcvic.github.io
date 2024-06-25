@@ -48,6 +48,14 @@ sudo sh ttyUSB.sh
 sudo udevadm trigger
 ```
 
+授权(将当前用户添加进dialout组):
+
+```bash
+sudo usermod -a -G dialout $USER
+```
+
+$USER为当前用户变量
+
 再次查看设备信息
 
 ![设备信息](/assets/images/other/ros/rosSetUdev/vmware_XTmNJvWDLV.png)

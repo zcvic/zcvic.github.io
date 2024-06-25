@@ -23,8 +23,10 @@ ll /dev/ttyUSB*
 授权(将当前用户添加进dialout组，与arduino类似):
 
 ```bash
-sudo usermod -a -G dialout your_user_name
+sudo usermod -a -G dialout $USER
 ```
+
+$USER为当前用户变量
 
 重启使配置生效
 
