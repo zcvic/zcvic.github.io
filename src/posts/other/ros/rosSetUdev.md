@@ -21,7 +21,10 @@ category:
 只有读写权限无执行权限
 
 新建一个ttyUSB.sh脚本文件
-
+```bash
+touch ttyUSB.sh
+```
+打开该文件，写入以下内容，保存
 ```bash
 echo 'KERNEL=="ttyUSB*", MODE:="0777", GROUP:="dialout"' >/etc/udev/rules.d/ttyUSB.rules
 
@@ -75,6 +78,12 @@ udevadm info --attribute-walk --name=/dev/ttyUSB0
 找到这几个属性
 
 ![设备属性](/assets/images/other/ros/rosSetUdev/vmware_Hh5Mo3zDPb.png)
+
+新建一个wheeltec_udev.sh
+
+```bash
+touch wheeltec_udev.sh
+```
 
 编写wheeltec_udev.sh脚本
 
